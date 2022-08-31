@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AR.Apressentação
+namespace AR.Apresentacao
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace AR.Apressentação
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "AR.Apressentação", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "AR.Apresentacao", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace AR.Apressentação
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AR.Apressentação v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AR.Apresentacao v1"));
             }
 
             app.UseHttpsRedirection();

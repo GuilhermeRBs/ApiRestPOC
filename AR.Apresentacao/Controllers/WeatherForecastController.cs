@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AR.Apressentação.Controllers
+namespace AR.Apresentacao.Controllers
 {
     [ApiController]
     [Route("[controller]")]
